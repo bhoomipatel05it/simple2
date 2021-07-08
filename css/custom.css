@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+:root{
+ --hblue: #f8f9fa;
+ --lblue: #edf3ff;
+ --bwhite: #ffffff;
+}
+
+.lblue{
+    background-color: var(--lblue);
+}
+
+.whitebox{
+    background-color: var(--bwhite);
+}
+
+.hblue{
+    background-color: var(--hblue);
+}

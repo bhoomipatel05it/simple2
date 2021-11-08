@@ -1,0 +1,53 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+ :root{
+ --tw-text-opacity: 1;
+ --tw-border-opacity: 1;
+ --tw-divide-y-reverse: 0;
+ }
+
+ $text-black :rgba(0, 0, 0, var(--tw-text-opacity));
+
+ @mixin common-text {
+   font-weight: 600;
+   color: $text-black;
+   line-height:1;
+   font-size:1rem;
+}
+
+.mainbox p{
+  @include common-text;
+  line-height:1.625;
+  padding: 1.2rem 0;
+}
+
+ .mainbox h3{
+    @include common-text;
+    font-size:0.75rem;
+    letter-spacing: 0.1em;
+    margin: 1.25rem 0 1rem;
+    text-transform: uppercase;
+ }
+
+ .mainbox h1{
+    @include common-text;
+    font-size:1.5rem;
+    letter-spacing: -0.05em;
+    margin-bottom: 1rem;
+} 
+
+.mainbox hr{
+  border-top: 2px solid rgba(229, 231, 235, var(--tw-border-opacity));
+  border-bottom:0;
+}
+
+.footerbox h3{
+  padding: 2rem 0;
+}
+
+
+
